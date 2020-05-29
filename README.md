@@ -1,3 +1,16 @@
+### Some notes from Helen:
+
+Changes I made that different from the original repository:
+
+1. Created 'server.js' file under src folder, added necessary codes for connection.
+
+1. Deleted 'http-common' file under src folder.
+
+1. In 'src/services/tutorial.service.js', change 'import http from "../http-common"' to 'import http from "../server"'.
+
+1. To run the frontend locally, in '.env' file, change the PORT into 8081 (to a number other than 8080). If deploying on Openshift, leave the PORT as 8080 (As the default port on Openshift is 8080). 
+
+
 # React.js CRUD App with Vue Router & Axios
 
 For more detail, please visit:
